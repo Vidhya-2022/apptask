@@ -1,0 +1,23 @@
+#tasklists {
+    background-color: aqua;
+    height: 50vh;
+}
+#completed{
+    background-color: greenyellow;
+    height: 50vh;
+    
+    
+}
+.addedtask div{
+    text-align: center;
+    display: flex;
+}
+h1{
+    text-align: center;
+}
+#form{
+    background-color: orange;
+}
+body{
+    background-color:antiquewhite;
+}

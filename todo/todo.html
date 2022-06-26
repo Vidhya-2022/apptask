@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOdo</title>
+    <link rel="stylesheet" href="todo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+</head>
+<body>
+    <h1><i><b>Todo list</i></b></h1>
+      
+      <div class="input-group mb-3" id="form">
+        <button on class="btn btn-outline-secondary" type="button" id="submit" onclick="insert()">Add</button>
+        <input type="text" class="form-control" placeholder="Enter your task" aria-label="Example text with button addon" aria-describedby="button-addon1" id="inputtask">
+        <input type="datetime-local" id="date">
+      </div>
+      <div id="tasklists">
+        <div class="addedtask">
+          <h1>Tasks to be done</h1>
+          <!-- <span  id="option"> -->
+            <!-- <button type="submit" onclick="deletetask()" id="delete">delete</button>
+            <button type="submit" onclick="edit()" id="edittask">edit</button>
+            <button type="submit" onclick="completedtask()">completed</button>
+          </span> -->
+        </div>
+
+      </div>
+      <div id="completed">
+        <h1>Done</h1>
+      </div>
+      <script src="todo.js"></script>
+  
+    
+    
+</body>
+</html>
