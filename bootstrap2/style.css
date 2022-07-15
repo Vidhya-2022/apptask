@@ -1,0 +1,25 @@
+.logo{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    margin-left: 20px;
+    clip-path: circle();
+    margin-left: -40px;
+}
+
+footer p{
+    text-align: center;
+}
+img{
+    object-fit: cover;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    
+}
+.header{
+    height: 43px;
+
+
+}
