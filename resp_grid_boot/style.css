@@ -1,0 +1,56 @@
+.a{
+    height: 100px;
+    background-color: red;
+}
+.b{
+    height: 100px;
+    background-color: blue;
+}
+.c,.d{
+    height: 150px;
+    background-color: yellow;
+}
+.e{
+    height: 100px;
+    background-color: green;
+}
+.f{
+    height: 100px;
+    background-color: palevioletred;
+}
+.g{
+    height: 100px;
+    background-color: blueviolet;
+}
+.h{
+    height: 125px;
+    background-color: orangered;
+}
+.i{
+    height: 125px;
+    background-color: yellowgreen;
+}
+.j{
+    height: 100px;
+    background-color:rgba(0, 128, 0, 0.378) ;
+}
+.k{
+    height:100px;
+    background-color: aqua;
+
+}
+.l{
+    height: 100px;
+    background-color: brown;
+}
+.m{
+    height: 100px;
+    background-color: blue;
+}
+.n{
+    height: 50px;
+    background-color: black;
+}
+.container-fluid div{
+    border: 5px solid white;
+}
